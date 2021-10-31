@@ -1,3 +1,3 @@
 #!/bin/bash
-
-az group create --name "Vcdemo" --location "eastus"
+source ./var.txt
+az group create --name $RESOURCE_GROUP --location $REGION
